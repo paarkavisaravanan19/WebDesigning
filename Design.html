@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style> 
+#translateMethod {
+  width: 300px;
+  height: 100px;
+  background-color: #00d0ff;
+  border: 1px solid black;
+  transform: translate(50px,100px);
+}
+#skewXMethod
+{
+  float :right;
+  width: 300px;
+  height: 100px;
+  background-color: yellow;
+  border: 2px solid black;
+  transform: skewX(20deg);
+}
+#skewYMethod
+{
+  float :right;
+  width: 300px;
+  height: 100px;
+  background-color: yellow;
+  border: 2px solid black;
+  transform: skewY(20deg);
+}
+#rotateMethod
+{
+  float :right;
+  width: 300px;
+  height: 100px;
+  background-color: #003cff;
+  border: 2px solid black;
+  transform: Rotate(20deg);
+}
+#ScaleXMethod
+{
+    margin: 150px;
+  width: 200px;
+  height: 100px;
+  background-color: #ff00d4;
+  border: 1px solid black;
+  transform: scaleX(2);
+}
+#ScaleYMethod
+{
+    margin: 100px;
+  width: 200px;
+  height: 100px;
+  background-color: #ff00d4;
+  border: 1px solid black;
+  transform: scaleY(3);
+}
+#BoxShadow
+{
+  border: 1px solid;
+  padding: 100px;
+  box-shadow: 5px 10px 8px 10px #888888;
+}
+div.a {
+  width: 150px; 
+  border: 1px solid #000000;
+  word-wrap: normal;
+}
+
+div.b {
+    width: 150px; 
+  border: 1px solid #000000;
+  word-wrap: break-word;
+}
+</style>
+</head>
+<body>
+
+<h1>2D Transform Method</h1>
+<div id="BoxShadow">
+<div id="translateMethod">Translate method</div>
+<div id="skewXMethod">Skew X Method</div>
+<div id="skewYMethod">Skew Y Method</div>
+<div id="rotateMethod">Rotate Method</div>
+<div id="ScaleXMethod">Scale X Method</div>
+<div id="ScaleYMethod">Scale Y Method</div>
+
+
+<h1>word-wrap Property</h1>
+
+<h2>word-wrap: normal (default):</h2>
+<div class="a"> uyttttttttttttttttttttttttthisisaveryveryveryveryveryverylongwordhngfgggggggggggg......</div>
+
+<h2>word-wrap: break-word:</h2>
+<div class="b"> kuyrvvvvvvvvvvvvvvthisisaveryveryveryveryveryverylongwordjhfdvvvvvvvvvvvvvvvvvvvvv</div>
+
+</div>
+</body>
+</html>
+
